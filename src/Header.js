@@ -44,11 +44,12 @@ function Header() {
           </div>
         </Link>
         
-
+        
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
+        <span className="header__optionLineOne">Your</span>
+        <a href="https://prime-clone-e1de6.firebaseapp.com/movie?id=495764"> <span className="header__optionLineTwo">Prime</span></a>
         </div>
+        
 
         <Link to="/checkout">
           <div className="header__optionBasket">
