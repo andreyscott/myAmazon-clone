@@ -1,32 +1,95 @@
 .checkoutProduct {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .checkoutProduct__info {
-    padding-left: 20px
+  padding-left: 20px;
 }
 
 .checkoutProduct__info > button {
-    background: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
 }
 
 .checkoutProduct__image {
-    object-fit: contain;
-    width: 180px;
-    height: 180px;
-  }
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
 
 .checkoutProduct__rating {
-    display: flex;
-  }
+  display: flex;
+}
 
 .checkoutProduct__title {
-    font-size: 17px;
-    font-weight: 800;
+  font-size: 17px;
+  font-weight: 800;
 }
+
+/* Responsive settings start here */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .checkoutProduct__rating {
+    justify-content: center;
+  }
+
+  .checkoutProduct__title {
+    padding-bottom: 20px;
+  }
+
+  .checkoutProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 400px;
+    width: 80%;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+  }
+  .checkoutProduct__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    padding-left: 0px;
+  }
+
+  .checkoutProduct > img {
+    max-height: 100px;
+    width: 50%;
+    object-fit: contain;
+    margin-bottom: 5px;
+  }
+
+  .checkoutProduct > p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+}
+
+@media (max-width: 479px) {
+}
+
+/* Responsive settings end here */

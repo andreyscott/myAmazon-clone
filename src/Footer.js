@@ -42,7 +42,7 @@ function Footer() {
 
       </div>
       <ul className="copyright">
-              <li>&copy; Copyright 2020 by Andreyscott @Andreyscott301@gmail.com</li>
+              <li>&copy; Copyright 2021 by Andrew Irorere @Andreyscott301@gmail.com</li>
            </ul>
            
         </div>
