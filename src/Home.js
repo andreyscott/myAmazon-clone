@@ -1,16 +1,21 @@
 import React from "react";
-import "./Home.css";
+import ImageSlider from './components/Slider';
+import { SliderData } from './components/SliderData';
 import Product from "./Product";
+import "./slider.css";
+import "./Home.css";
+
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
+      <ImageSlider  className="home__image" slides={SliderData} />;
+        {/* <img
           className="home__image"
           src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
           alt=""
-        />
+        /> */}
 
         <div className="home__row">
           <Product
@@ -70,25 +75,25 @@ function Home() {
         <div className="home__row">
           <Product
             id="908322332"
-            title="Grace's Secret Unisex 3D Ugly Christmas Sweatshirt Kangaroo Pocket Hoodies Pullover"
+            title="Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, Silver"
             price={94.98}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/61URAucjzcL._AC_UX522_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/41vMYgD92xL._AC_US160_.jpg"
           />
           <Product
             id="90322332"
-            title="Sesame Street Rock and Rhyme Elmo Talking, Singing 14-Inch Plush Toy for Toddlers, Kids 18 Months & Up"
+            title="Condoms, Ultra Fine, Ribbed, Dotted with Delay Lubricant, Durex Performax Intense Natural Rubber Latex Condoms, 24"
             price={24.98}
             rating={4}
-            image="https://m.media-amazon.com/images/I/71NM1FfauzL._AC_UL320_.jpg"
+            image="https://m.media-amazon.com/images/I/91VfvfSu7sL._AC_UL320_.jpg"
           />
           
           <Product
             id="9083132"
-            title="Trojan Pleasure Variety Pack Lubricated Condoms"
+            title="1080P Webcam with Microphone, Wansview USB 2.0 Desktop Laptop Computer Web Camera with Auto Light Correction, Plug and Play, for Windows Mac OS, for Video Streaming, Conference, Gaming,"
             price={4.98}
             rating={5}
-            image="https://m.media-amazon.com/images/I/81WdJ-WRfsL._AC_UL320_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/I/41QyeCl1kGL._AC_US160_.jpg"
           />
 
         </div>
