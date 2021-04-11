@@ -47,7 +47,7 @@ function Header() {
         
         <div className="header__option">
         <span className="header__optionLineOne">Your</span>
-        <a href="https://prime-clone-e1de6.firebaseapp.com/movie?id=495764"> <span className="header__optionLineTwo">Prime</span></a>
+        <a href="https://prime-5b144.web.app/"> <span className="header__optionLineTwo">Prime</span></a>
         </div>
         
 
